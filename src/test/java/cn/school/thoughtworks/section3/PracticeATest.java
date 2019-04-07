@@ -37,6 +37,7 @@ public class PracticeATest {
         Map<String, List<String>> collection2 = new HashMap<>();
         collection2.put("value", list);
 
+
         Map<String, Integer> result = practiceA.createUpdatedCollection(collection1, collection2);
         Map<String, Integer> expectedResult = new HashMap<String, Integer>() {{
             put("a", 1);

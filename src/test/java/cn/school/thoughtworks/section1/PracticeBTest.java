@@ -23,6 +23,8 @@ public class PracticeBTest {
         List<String> list = Arrays.asList("a", "d", "e", "f");
         List<List<String>> collection2 = Arrays.asList(list);
 
+        System.out.println(collection2);
+
         List<String> result = practiceB.collectSameElements(collection1, collection2);
         List<String> expectedResult = Arrays.asList("a", "e", "f", "d");
         assertEquals(result, expectedResult);
